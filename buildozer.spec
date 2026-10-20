@@ -11,3 +11,7 @@ osx.python_version = 3
 osx.kivy_version = 1.9.1
 fullscreen = 0
 android.permissions = INTERNET
+# تحديد إصدار الأندرويد ليكون متوافقاً ومستقراً
+android.api = 31
+android.minapi = 21
+android.sdk_accept_licenses = True
