@@ -2,16 +2,18 @@
 title = Smart Finance
 package.name = smartfinance
 package.domain = org.smartfinance
-source.include_exts = py,png,jpg,kv,atlas
 source.dir = .
+source.include_exts = py,png,jpg,kv,atlas
 version = 0.1
 requirements = python3,kivy
 orientation = portrait
 osx.python_version = 3
 osx.kivy_version = 1.9.1
 fullscreen = 0
-android.permissions = INTERNET
-# تحديد إصدار الأندرويد ليكون متوافقاً ومستقراً
+
+# Android specific configurations
 android.api = 31
 android.minapi = 21
 android.sdk_accept_licenses = True
+android.permissions = INTERNET
+android.skip_update = False
