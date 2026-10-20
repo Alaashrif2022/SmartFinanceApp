@@ -17,4 +17,5 @@ android.minapi = 21
 android.sdk_accept_licenses = True
 android.ndk = 25b
 android.skip_update = False
+android.accept_sdk_license = True
 android.permissions = INTERNET
