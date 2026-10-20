@@ -18,4 +18,4 @@ android.skip_update = False
 android.sdk_accept_licenses = True
 android.accept_sdk_license = True
 android.archs = armeabi-v7a
-android.build_tools_version = 31.0.0
+android.gradle_dependencies =
